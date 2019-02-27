@@ -2,8 +2,12 @@
 layout: page
 title: About
 permalink: /about/
-image: /assets/images/outdoor-1689777.jpg
 ---
+<div class="teaserimage">
+    <div class="teaserimage-image" style="background-image: url("/assets/images/outdoor-1689777.jpg")">
+        Teaser Image
+    </div>
+</div>
 
 A medium inspired Jekyll blog theme. The basic idea came from the Ghost theme 
 [Readium 2.0](http://www.svenread.com/readium-ghost-theme/). I use mediator on my own blog [The Base](blog.base68.com).
