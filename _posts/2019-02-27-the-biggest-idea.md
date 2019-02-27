@@ -4,6 +4,7 @@ title:  "The Biggest Idea"
 date:   2014-02-27
 categories: the-biggest-idea
 tags: love,sacrifice
-image: /assets/article_images/2014-08-29-welcome-to-jekyll/desktop.JPG
+image: /assets/article_images/2019-02-27-the-biggest-idea/freedom-1886402.jpg
+image2: /assets/article_images/2019-02-27-the-biggest-idea/freedom-1886402_1280.jpg
 ---
 # Test
