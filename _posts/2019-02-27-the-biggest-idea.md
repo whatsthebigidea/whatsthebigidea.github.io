@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The Biggest Idea"
+title:  "So What's the Biggest Idea?"
 date:   2019-02-27
 categories: the-biggest-idea
 tags: love,sacrifice,resurrection
