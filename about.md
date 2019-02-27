@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+image: /assets/images/outdoor-1689777.jpg
 ---
 
 A medium inspired Jekyll blog theme. The basic idea came from the Ghost theme 
