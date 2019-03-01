@@ -11,18 +11,20 @@
     big idea.</p>
 </div>
 {% if site.categories.the-biggest-idea %}
-  <h5 class="index-headline featured"><span>Big Ideas</span></h5>
+  <h5 class="index-headline featured"></h5>
     <div class="container featured">
+      {% for post in site.categories.the-biggest-idea %}
       <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
           <div class="article-item">
             <header class="post-header">
-              <h2 class="post-title" itemprop="name"><a href="{{ site.categories.the-biggest-idea.first.url | prepend: site.baseurl }}" itemprop="url">{{ site.categories.the-biggest-idea.first.url.title }}</a></h2>
+              <h2 class="post-title" itemprop="name"><a href="{{ post.url | prepend: site.baseurl }}" itemprop="url">{{ post.title }}</a></h2>
             </header>
             <section class="post-excerpt" itemprop="description">
-              <p>{{ site.categories.the-biggest-idea.first.url.content | strip_html }}</p>
+              <p>{{ post.url.content | strip_html }}</p>
             </section>
           </div>
         </article>
+      {% endfor %}
     </div>
     {% endif %}
 
